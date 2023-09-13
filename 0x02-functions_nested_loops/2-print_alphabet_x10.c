@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_10 - prints all the alphabets in lowercase 10 times
+ * print_alphabet_X10 - prints all the alphabets in lowercase 10 times
  */
-void print_alphabet_10(void)
+void print_alphabet_x10(void)
 {
 	int i  = 0;
 	char l = 'a';

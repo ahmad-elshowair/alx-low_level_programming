@@ -1,5 +1,5 @@
 #include "main.h"
-#include <cstdlib>
+#include <stdlib>
 
 /**
  * _abs - get the absolute value of integer

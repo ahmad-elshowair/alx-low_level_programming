@@ -5,9 +5,11 @@
  */
 void times_table(void)
 {
-	for (int r = 0; r < 9; r++)
+	int r, c;
+
+	for (r = 0; r < 9; r++)
 	{
-		for (int c = 0; c < 9; c++)
+		for (c = 0; c < 9; c++)
 		{
 			_putchar((r * c) + '0');
 			if (c < 9)

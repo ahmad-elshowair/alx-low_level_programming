@@ -4,7 +4,7 @@
 /**
  * _abs - get the absolute value of integer
  * @n: the checked integer
- * return: the absolute value
+ * Return: the absolute value
  */
 int _abs(int n)
 {

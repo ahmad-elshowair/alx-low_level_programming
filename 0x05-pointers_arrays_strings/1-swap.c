@@ -7,6 +7,9 @@
  */
 void swap_int(int *a, int *b)
 {
+	int m;
+
+	m = *a; /* save value in temporary variable*/
 	*a = *b;
 	*b = *a;
 }

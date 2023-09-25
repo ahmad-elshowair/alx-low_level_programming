@@ -5,13 +5,12 @@
  * starting with the first character, followed by a new line.
  * @str: it is an argument of char
  */
-void puts2(char *str)
+void puts2(char *st)
 {
-	char *p = str;
-	while (*p != '\0')
+	int i;
+	for (i = 0; i < _strlen(str); i += 2)
 	{
-		_putchar(*p);
-		p += 2;
+		_putchar(*(str + i));
 	}
 	_putchar('\n');
 }

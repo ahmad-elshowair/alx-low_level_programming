@@ -1,11 +1,8 @@
 #include "main.h"
-
 /**
- * *leet - a function that encodes a string into 1337
- *
- * @c: a pointer to a string
- *
- * Return: the encoded string
+ * leet - encode into 1337speak
+ * @n: input value
+ * Return: n value
  */
 char *leet(char *n)
 {
@@ -25,3 +22,17 @@ char *leet(char *n)
 	}
 	return (n);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
